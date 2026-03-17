@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "TWK Lausanne Pan";
+  src: url("../fonts/TWKLausannePan-250.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TWK Lausanne Pan";
+  src: url("../fonts/TWKLausannePan-450.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
