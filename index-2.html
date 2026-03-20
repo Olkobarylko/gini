@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+     <link rel="stylesheet" href="./styles/fonts.css">
+     <link rel="stylesheet" href="./styles/reset.css">
+     <link rel="stylesheet" href="./styles/global.css">
+     <link rel="stylesheet" href="./styles/main.css">
+    <title>GINI</title>
+</head>
+<body>
+     <header class="header v2">
+        <div class="header__container v2">
+            <a href="#" class="header__logo">
+                <img src="./images/header-logo.png" alt="">
+            </a>
+            <div class="header__contact">
+                <a href="#" class="cta-transparent">Log in</a>
+                <a href="#" class="cta-header">Sign up
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.5297 11.4699C20.6701 11.6105 20.749 11.8012 20.749 11.9999C20.749 12.1987 20.6701 12.3893 20.5297 12.5299L14.5297 18.5299C14.461 18.6036 14.3782 18.6627 14.2862 18.7037C14.1942 18.7447 14.0949 18.7667 13.9942 18.7685C13.8935 18.7703 13.7935 18.7518 13.7001 18.714C13.6067 18.6763 13.5219 18.6202 13.4506 18.5489C13.3794 18.4777 13.3233 18.3929 13.2856 18.2995C13.2478 18.2061 13.2293 18.1061 13.2311 18.0054C13.2329 17.9047 13.2549 17.8054 13.2959 17.7134C13.3369 17.6214 13.396 17.5386 13.4697 17.4699L18.1897 12.7499L3.99968 12.7499C3.80077 12.7499 3.61001 12.6709 3.46935 12.5302C3.3287 12.3896 3.24968 12.1988 3.24968 11.9999C3.24968 11.801 3.3287 11.6102 3.46935 11.4696C3.61001 11.3289 3.80077 11.2499 3.99968 11.2499L18.1897 11.2499L13.4697 6.52991C13.396 6.46125 13.3369 6.37845 13.2959 6.28645C13.2549 6.19445 13.2329 6.09514 13.2311 5.99443C13.2293 5.89373 13.2478 5.7937 13.2856 5.70031C13.3233 5.60692 13.3794 5.52209 13.4506 5.45087C13.5219 5.37965 13.6067 5.32351 13.7001 5.28579C13.7935 5.24807 13.8935 5.22954 13.9942 5.23132C14.0949 5.2331 14.1942 5.25514 14.2862 5.29613C14.3782 5.33712 14.461 5.39622 14.5297 5.46991L20.5297 11.4699Z"
+                                fill="url(#paint0_linear_72_494)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_72_494" x1="20.749" y1="11.9999" x2="3.24968" y2="11.9999"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#DC5B34" />
+                                    <stop offset="0.480769" stop-color="#D35BD9" />
+                                    <stop offset="1" stop-color="#35ADBD" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+     </header>
+
+     <main>
+        <section class="hero-2">
+            <div class="container">
+                <div class="hero-2__wrapper">
+                     <div class="hero-2__inner">
+                        <h1 class="hero-2__title">Turn <span>location data</span> into smarter decisions</h1>
+                     <p class="hero-2__text"><span>Gini is your AI assistant for geospatial analytics.</span> Analyze foot traffic, demographics, and competition to understand where your business should grow next.</p>
+                     </div>
+                     <div class="hero-2__cta">
+                        <a href="#" class="cta-gradient">Start with Gini
+                            <div class="icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.5299 11.47C20.6704 11.6106 20.7493 11.8012 20.7493 12C20.7493 12.1987 20.6704 12.3893 20.5299 12.53L14.5299 18.53C14.4613 18.6037 14.3785 18.6628 14.2865 18.7038C14.1945 18.7447 14.0952 18.7668 13.9945 18.7686C13.8937 18.7703 13.7937 18.7518 13.7003 18.7141C13.6069 18.6764 13.5221 18.6202 13.4509 18.549C13.3797 18.4778 13.3235 18.393 13.2858 18.2996C13.2481 18.2062 13.2296 18.1062 13.2313 18.0054C13.2331 17.9047 13.2552 17.8054 13.2961 17.7134C13.3371 17.6214 13.3962 17.5386 13.4699 17.47L18.1899 12.75L3.99993 12.75C3.80102 12.75 3.61025 12.671 3.4696 12.5303C3.32895 12.3896 3.24993 12.1989 3.24993 12C3.24993 11.8011 3.32895 11.6103 3.4696 11.4696C3.61025 11.329 3.80102 11.25 3.99993 11.25L18.1899 11.25L13.4699 6.52997C13.3962 6.46131 13.3371 6.37851 13.2961 6.28651C13.2552 6.19451 13.2331 6.0952 13.2313 5.99449C13.2296 5.89379 13.2481 5.79376 13.2858 5.70037C13.3235 5.60699 13.3797 5.52215 13.4509 5.45093C13.5221 5.37971 13.6069 5.32357 13.7003 5.28585C13.7937 5.24813 13.8937 5.2296 13.9945 5.23138C14.0952 5.23316 14.1945 5.2552 14.2865 5.29619C14.3785 5.33718 14.4613 5.39628 14.5299 5.46997L20.5299 11.47Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="#" class="cta-transparent-2">Get a free location analysis</a>
+                     </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="logos">
+        <div class="container">
+            <div class="logos__wrapper">
+                <h4 class="logos__title">
+                    Trusted by <span>600+</span> companies across Europe
+                </h4>
+    
+                <div class="splide hero-logos">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <div class="image__wrapper">
+                                    <img src="./images/slider-light-1.png" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="splide__slide">
+                                <div class="image__wrapper">
+                                    <img src="./images/slider-light-2.png" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="splide__slide">
+                                <div class="image__wrapper">
+                                    <img src="./images/slider-light-3.png" alt="">
+                                </div>
+                            </div>
+    
+                            <div class="splide__slide">
+                                <div class="image__wrapper">
+                                    <img src="./images/slider-light-4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="cards">
+            <div class="container">
+                <div class="cards__wrapper">
+                    <h2 class="cards__title">Location intelligence at scale</h2>
+                    <div class="cards__list">
+                         <div class="card__item">
+                            <span class="card__number">600+</span>
+                            <p class="card__text">companies using MyTraffic</p>
+                         </div>
+                         <div class="card__item">
+                            <span class="card__number">1B+</span>
+                            <p class="card__text">monthly location signals analyzed</p>
+                         </div>
+                         <div class="card__item">
+                            <span class="card__number">30+ </span>
+                            <p class="card__text">European countries covered</p>
+                         </div>
+                         <div class="card__item">
+                            <span class="card__number">1M+</span>
+                            <p class="card__text">locations analyzed every year</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards__bg">
+                <img src="./images/cards-bg.png" alt="">
+            </div>
+        </section>
+         <section class="text-video">
+            <div class="container">
+                <div class="text-video__wrapper">
+                    <div class="tv__inner">
+                        <h2 class="tv__title">Ask questions. Get location insights <span>instantly.</span></h2>
+                        <p class="tv__text">Gini simplifies complex geospatial analysis.<br>
+                            Instead of navigating dashboards and datasets, you can simply ask questions and get structured answers
+                            instantly.<br><br>
+                            Explore catchment areas, compare locations, understand visitor profiles, and identify high-potential markets in
+                            seconds.</p>
+                        <a href="#" class="cta-gradient">Start with Gini
+                            <div class="icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.5299 11.47C20.6704 11.6106 20.7493 11.8012 20.7493 12C20.7493 12.1987 20.6704 12.3893 20.5299 12.53L14.5299 18.53C14.4613 18.6037 14.3785 18.6628 14.2865 18.7038C14.1945 18.7447 14.0952 18.7668 13.9945 18.7686C13.8937 18.7703 13.7937 18.7518 13.7003 18.7141C13.6069 18.6764 13.5221 18.6202 13.4509 18.549C13.3797 18.4778 13.3235 18.393 13.2858 18.2996C13.2481 18.2062 13.2296 18.1062 13.2313 18.0054C13.2331 17.9047 13.2552 17.8054 13.2961 17.7134C13.3371 17.6214 13.3962 17.5386 13.4699 17.47L18.1899 12.75L3.99993 12.75C3.80102 12.75 3.61025 12.671 3.4696 12.5303C3.32895 12.3896 3.24993 12.1989 3.24993 12C3.24993 11.8011 3.32895 11.6103 3.4696 11.4696C3.61025 11.329 3.80102 11.25 3.99993 11.25L18.1899 11.25L13.4699 6.52997C13.3962 6.46131 13.3371 6.37851 13.2961 6.28651C13.2552 6.19451 13.2331 6.0952 13.2313 5.99449C13.2296 5.89379 13.2481 5.79376 13.2858 5.70037C13.3235 5.60699 13.3797 5.52215 13.4509 5.45093C13.5221 5.37971 13.6069 5.32357 13.7003 5.28585C13.7937 5.24813 13.8937 5.2296 13.9945 5.23138C14.0952 5.23316 14.1945 5.2552 14.2865 5.29619C14.3785 5.33718 14.4613 5.39628 14.5299 5.46997L20.5299 11.47Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tv__image">
+                        <img src="./images/tv-image-test.png" alt="">
+                    </div>
+         </section>
+         <section class="grid">
+            <div class="container">
+                <div class="grid__wrapper">
+                    <h2 class="grid__title">Everything you need to <span>evaluate a location</span></h2>
+                    <div class="grid__inner">
+                       <div class="grid__item">
+                         <div class="grid__content">
+                            <div class="grid__image">
+                                <img src="./images/grid-cube.png" alt="">
+                            </div>
+                            <h3 class="grid__item-title">Foot traffic insights</h3>
+                            <p class="grid__item-text">Understand how many people visit an area and how foot traffic changes by day, week, and season.</p>
+                        </div>
+                       </div>
+                        <div class="grid__item">
+                         <div class="grid__content">
+                            <div class="grid__image">
+                                <img src="./images/grid-cube.png" alt="">
+                            </div>
+                            <h3 class="grid__item-title">Catchment area analysis</h3>
+                            <p class="grid__item-text">Identify where visitors come from and define realistic trade areas around your locations.</p>
+                        </div>
+                       </div>
+                        <div class="grid__item">
+                         <div class="grid__content">
+                            <div class="grid__image">
+                                <img src="./images/grid-cube.png" alt="">
+                            </div>
+                            <h3 class="grid__item-title">Visitor demographics</h3>
+                            <p class="grid__item-text">Analyze age groups, income levels, and audience profiles to better match locations with your target customers.</p>
+                        </div>
+                       </div>
+                        <div class="grid__item">
+                         <div class="grid__content">
+                            <div class="grid__image">
+                                <img src="./images/grid-cube.png" alt="">
+                            </div>
+                            <h3 class="grid__item-title">Competitor benchmarking</h3>
+                            <p class="grid__item-text">Compare potential locations with existing stores or competitors to understand performance differences.</p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section class="steps">
+  <div class="container">
+    <div class="steps__wrapper">
+      <h2 class="steps__title">
+        From question to <br> decision in <span>minutes</span>
+      </h2>
+      <div class="steps__inner">
+       
+        <div class="steps__content-list">
+           <div class="steps__timeline">
+            <div class="steps__progress"></div>
+          </div>
+          <div class="steps__item is-active">
+            <div class="steps__dot"></div>
+            <div class="steps__content">
+              <span class="steps__label">Step 1</span>
+              <h3 class="steps__item-title">Ask Gini a question</h3>
+              <p class="steps__item-text">Find areas in Paris with strong foot traffic and limited fast-food competition.</p>
+            </div>
+          </div>
+          <div class="steps__item">
+            <div class="steps__dot"></div>
+            <div class="steps__content">
+              <span class="steps__label">Step 2</span>
+              <h3 class="steps__item-title">Analyze locations</h3>
+              <p class="steps__item-text">Gini explores location data, demographics, and footfall patterns.</p>
+            </div>
+          </div>
+          <div class="steps__item">
+            <div class="steps__dot"></div>
+            <div class="steps__content">
+              <span class="steps__label">Step 3</span>
+              <h3 class="steps__item-title">Make a confident decision</h3>
+              <p class="steps__item-text">Compare locations and choose the best place to grow.</p>
+            </div>
+          </div>
+        </div>
+        <div class="steps__image">
+          <div class="steps__image-sticky">
+            <img src="./images/steps-image.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </section>
+        <section class="carousel">
+            <div class="container">
+                <div class="carousel__wrapper">
+                     <div class="splide carousel-text">
+                         <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <div class="carousel__content-wrapper">
+                                         <h2 class="carousel__title">“MyTraffic allows us to evaluate locations <span>much faster</span> and make <span>better</span> expansion decisions.”</h2>
+                                         <div class="carousel__bottom">
+                                             
+                                              <div class="carousel__about">
+                                                <div class="carousel__author">
+                                                    <span class="carousel__author-name">Tommy Lebel</span>
+                                                    <span class="carousel__author-job">Vus.js Expert & Tech Lead</span>
+                                                </div>
+                                                <div class="carousel__logo-image">
+                                                     <img src="./images/slider-light-1.png" alt="">
+                                                </div>
+                                              </div>
+                                               
+                                         </div>
+                                    </div>
+                                </div>
+                                 <div class="splide__slide">
+                                    <div class="carousel__content-wrapper">
+                                         <h2 class="carousel__title">“MyTraffic allows us to evaluate locations <span>much faster</span> and make <span class="orange">better</span> expansion decisions.”</h2>
+                                         <div class="carousel__bottom">
+                                             
+                                              <div class="carousel__about">
+                                                <div class="carousel__author">
+                                                    <span class="carousel__author-name">John Doe</span>
+                                                    <span class="carousel__author-job">Vus.js Expert & Tech Lead</span>
+                                                </div>
+                                                <div class="carousel__logo-image">
+                                                     <img src="./images/slider-light-2.png" alt="">
+                                                </div>
+                                              </div>
+                                               
+                                         </div>
+                                    </div>
+                                </div>
+                                 <div class="splide__slide">
+                                    <div class="carousel__content-wrapper">
+                                         <h2 class="carousel__title">“MyTraffic allows us to evaluate locations <span>much faster</span> and make <span class="orange">better</span> expansion decisions.”</h2>
+                                         <div class="carousel__bottom">
+                                             
+                                              <div class="carousel__about">
+                                                <div class="carousel__author">
+                                                    <span class="carousel__author-name">Tommy Lebel</span>
+                                                    <span class="carousel__author-job">Vus.js Expert & Tech Lead</span>
+                                                </div>
+                                                <div class="carousel__logo-image">
+                                                     <img src="./images/slider-light-3.png" alt="">
+                                                </div>
+                                              </div>
+                                               
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                    <div class="carousel__nav">
+                        <div class="carousel__btn-prev">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.62583 15.2934C4.43856 15.4809 4.33337 15.735 4.33337 16C4.33337 16.265 4.43856 16.5192 4.62583 16.7067L12.6258 24.7067C12.7174 24.805 12.8278 24.8838 12.9504 24.9384C13.0731 24.9931 13.2055 25.0225 13.3398 25.0248C13.4741 25.0272 13.6074 25.0025 13.732 24.9522C13.8565 24.9019 13.9696 24.8271 14.0645 24.7321C14.1595 24.6371 14.2344 24.524 14.2847 24.3995C14.335 24.275 14.3597 24.1416 14.3573 24.0073C14.3549 23.8731 14.3255 23.7407 14.2709 23.618C14.2162 23.4953 14.1374 23.3849 14.0392 23.2934L7.74583 17L26.6658 17C26.931 17 27.1854 16.8947 27.3729 16.7071C27.5605 16.5196 27.6658 16.2653 27.6658 16C27.6658 15.7348 27.5605 15.4805 27.3729 15.2929C27.1854 15.1054 26.931 15 26.6658 15L7.74583 15L14.0392 8.70671C14.1374 8.61516 14.2162 8.50476 14.2709 8.38209C14.3255 8.25943 14.3549 8.12701 14.3573 7.99274C14.3597 7.85847 14.335 7.7251 14.2847 7.60058C14.2344 7.47606 14.1595 7.36295 14.0645 7.26799C13.9696 7.17303 13.8565 7.09817 13.732 7.04788C13.6074 6.99758 13.4741 6.97289 13.3398 6.97525C13.2055 6.97762 13.0731 7.00701 12.9504 7.06167C12.8278 7.11632 12.7174 7.19513 12.6258 7.29338L4.62583 15.2934Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="carousel__btn-next">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27.3733 15.2934C27.5606 15.4809 27.6658 15.735 27.6658 16C27.6658 16.265 27.5606 16.5192 27.3733 16.7067L19.3733 24.7067C19.2818 24.805 19.1714 24.8838 19.0487 24.9384C18.926 24.9931 18.7936 25.0225 18.6593 25.0248C18.5251 25.0272 18.3917 25.0025 18.2672 24.9522C18.1427 24.9019 18.0296 24.8271 17.9346 24.7321C17.8396 24.6371 17.7648 24.524 17.7145 24.3995C17.6642 24.275 17.6395 24.1416 17.6419 24.0073C17.6442 23.8731 17.6736 23.7407 17.7283 23.618C17.7829 23.4953 17.8617 23.3849 17.96 23.2934L24.2533 17L5.33332 17C5.0681 17 4.81375 16.8947 4.62621 16.7071C4.43867 16.5196 4.33332 16.2653 4.33332 16C4.33332 15.7348 4.43867 15.4805 4.62621 15.2929C4.81375 15.1054 5.0681 15 5.33332 15L24.2533 15L17.96 8.70671C17.8617 8.61516 17.7829 8.50476 17.7283 8.38209C17.6736 8.25943 17.6442 8.12701 17.6419 7.99274C17.6395 7.85847 17.6642 7.7251 17.7145 7.60058C17.7648 7.47606 17.8396 7.36295 17.9346 7.26799C18.0296 7.17303 18.1427 7.09817 18.2672 7.04788C18.3917 6.99758 18.5251 6.97289 18.6593 6.97525C18.7936 6.97762 18.926 7.00701 19.0487 7.06167C19.1714 7.11632 19.2818 7.19513 19.3733 7.29338L27.3733 15.2934Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container">
+                <div class="faq__wrapper">
+                    <h2 class="faq__title">FAQ</h2>
+                    <div class="faq__list">
+                        <div class="faq__item">
+                            <div class="faq__item-head">
+                                <h3 class="faq__item-title">What is Gini?</h3>
+                                <div class="faq__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_32_1114)">
+                                            <path
+                                                d="M12 0C5.37262 0 0 5.37262 0 12C0 18.6278 5.37262 24 12 24C18.6278 24 24 18.6278 24 12C24 5.37262 18.6278 0 12 0ZM12 22.5236C6.21037 22.5236 1.5 17.7896 1.5 12C1.5 6.21033 6.21037 1.49995 12 1.49995C17.7896 1.49995 22.5 6.21035 22.5 12C22.5 17.7896 17.7896 22.5236 12 22.5236ZM17.25 11.25H12.75V6.75C12.75 6.336 12.414 6 12 6C11.586 6 11.25 6.336 11.25 6.75V11.25H6.75C6.336 11.25 6 11.586 6 12C6 12.414 6.336 12.75 6.75 12.75H11.25V17.25C11.25 17.664 11.586 18 12 18C12.414 18 12.75 17.664 12.75 17.25V12.75H17.25C17.664 12.75 18 12.414 18 12C18 11.586 17.664 11.25 17.25 11.25Z"
+                                                fill="#1E1E1E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_32_1114">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq__item-panel">
+                                <div class="faq__item-text-wrapper">
+                                    <p class="faq__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat mi, eleifend eget porttitor nec, consectetur vel sem. Praesent nec tellus ut lorem egestas vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="faq__item">
+                            <div class="faq__item-head">
+                                <h3 class="faq__item-title">What data does MyTraffic provide?</h3>
+                                <div class="faq__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_32_1114)">
+                                            <path
+                                                d="M12 0C5.37262 0 0 5.37262 0 12C0 18.6278 5.37262 24 12 24C18.6278 24 24 18.6278 24 12C24 5.37262 18.6278 0 12 0ZM12 22.5236C6.21037 22.5236 1.5 17.7896 1.5 12C1.5 6.21033 6.21037 1.49995 12 1.49995C17.7896 1.49995 22.5 6.21035 22.5 12C22.5 17.7896 17.7896 22.5236 12 22.5236ZM17.25 11.25H12.75V6.75C12.75 6.336 12.414 6 12 6C11.586 6 11.25 6.336 11.25 6.75V11.25H6.75C6.336 11.25 6 11.586 6 12C6 12.414 6.336 12.75 6.75 12.75H11.25V17.25C11.25 17.664 11.586 18 12 18C12.414 18 12.75 17.664 12.75 17.25V12.75H17.25C17.664 12.75 18 12.414 18 12C18 11.586 17.664 11.25 17.25 11.25Z"
+                                                fill="#1E1E1E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_32_1114">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq__item-panel">
+                                <div class="faq__item-text-wrapper">
+                                    <p class="faq__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat mi, eleifend eget porttitor nec, consectetur vel sem. Praesent nec tellus ut lorem egestas vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="faq__item">
+                            <div class="faq__item-head">
+                                <h3 class="faq__item-title">Can I analyze any location?</h3>
+                                <div class="faq__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_32_1114)">
+                                            <path
+                                                d="M12 0C5.37262 0 0 5.37262 0 12C0 18.6278 5.37262 24 12 24C18.6278 24 24 18.6278 24 12C24 5.37262 18.6278 0 12 0ZM12 22.5236C6.21037 22.5236 1.5 17.7896 1.5 12C1.5 6.21033 6.21037 1.49995 12 1.49995C17.7896 1.49995 22.5 6.21035 22.5 12C22.5 17.7896 17.7896 22.5236 12 22.5236ZM17.25 11.25H12.75V6.75C12.75 6.336 12.414 6 12 6C11.586 6 11.25 6.336 11.25 6.75V11.25H6.75C6.336 11.25 6 11.586 6 12C6 12.414 6.336 12.75 6.75 12.75H11.25V17.25C11.25 17.664 11.586 18 12 18C12.414 18 12.75 17.664 12.75 17.25V12.75H17.25C17.664 12.75 18 12.414 18 12C18 11.586 17.664 11.25 17.25 11.25Z"
+                                                fill="#1E1E1E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_32_1114">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq__item-panel">
+                                <div class="faq__item-text-wrapper">
+                                    <p class="faq__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat mi, eleifend eget porttitor nec, consectetur vel sem. Praesent nec tellus ut lorem egestas vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="faq__item">
+                            <div class="faq__item-head">
+                                <h3 class="faq__item-title">Is the data GDPR compliant?</h3>
+                                <div class="faq__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_32_1114)">
+                                            <path
+                                                d="M12 0C5.37262 0 0 5.37262 0 12C0 18.6278 5.37262 24 12 24C18.6278 24 24 18.6278 24 12C24 5.37262 18.6278 0 12 0ZM12 22.5236C6.21037 22.5236 1.5 17.7896 1.5 12C1.5 6.21033 6.21037 1.49995 12 1.49995C17.7896 1.49995 22.5 6.21035 22.5 12C22.5 17.7896 17.7896 22.5236 12 22.5236ZM17.25 11.25H12.75V6.75C12.75 6.336 12.414 6 12 6C11.586 6 11.25 6.336 11.25 6.75V11.25H6.75C6.336 11.25 6 11.586 6 12C6 12.414 6.336 12.75 6.75 12.75H11.25V17.25C11.25 17.664 11.586 18 12 18C12.414 18 12.75 17.664 12.75 17.25V12.75H17.25C17.664 12.75 18 12.414 18 12C18 11.586 17.664 11.25 17.25 11.25Z"
+                                                fill="#1E1E1E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_32_1114">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq__item-panel">
+                                <div class="faq__item-text-wrapper">
+                                    <p class="faq__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat mi, eleifend eget porttitor nec, consectetur vel sem. Praesent nec tellus ut lorem egestas vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="faq__item">
+                            <div class="faq__item-head">
+                                <h3 class="faq__item-title">Can I analyze any location?</h3>
+                                <div class="faq__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_32_1114)">
+                                            <path
+                                                d="M12 0C5.37262 0 0 5.37262 0 12C0 18.6278 5.37262 24 12 24C18.6278 24 24 18.6278 24 12C24 5.37262 18.6278 0 12 0ZM12 22.5236C6.21037 22.5236 1.5 17.7896 1.5 12C1.5 6.21033 6.21037 1.49995 12 1.49995C17.7896 1.49995 22.5 6.21035 22.5 12C22.5 17.7896 17.7896 22.5236 12 22.5236ZM17.25 11.25H12.75V6.75C12.75 6.336 12.414 6 12 6C11.586 6 11.25 6.336 11.25 6.75V11.25H6.75C6.336 11.25 6 11.586 6 12C6 12.414 6.336 12.75 6.75 12.75H11.25V17.25C11.25 17.664 11.586 18 12 18C12.414 18 12.75 17.664 12.75 17.25V12.75H17.25C17.664 12.75 18 12.414 18 12C18 11.586 17.664 11.25 17.25 11.25Z"
+                                                fill="#1E1E1E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_32_1114">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq__item-panel">
+                                <div class="faq__item-text-wrapper">
+                                    <p class="faq__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat mi, eleifend eget porttitor nec, consectetur vel sem. Praesent nec tellus ut lorem egestas vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="faq__item">
+                            <div class="faq__item-head">
+                                <h3 class="faq__item-title">Is the data GDPR compliant?</h3>
+                                <div class="faq__item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_32_1114)">
+                                            <path
+                                                d="M12 0C5.37262 0 0 5.37262 0 12C0 18.6278 5.37262 24 12 24C18.6278 24 24 18.6278 24 12C24 5.37262 18.6278 0 12 0ZM12 22.5236C6.21037 22.5236 1.5 17.7896 1.5 12C1.5 6.21033 6.21037 1.49995 12 1.49995C17.7896 1.49995 22.5 6.21035 22.5 12C22.5 17.7896 17.7896 22.5236 12 22.5236ZM17.25 11.25H12.75V6.75C12.75 6.336 12.414 6 12 6C11.586 6 11.25 6.336 11.25 6.75V11.25H6.75C6.336 11.25 6 11.586 6 12C6 12.414 6.336 12.75 6.75 12.75H11.25V17.25C11.25 17.664 11.586 18 12 18C12.414 18 12.75 17.664 12.75 17.25V12.75H17.25C17.664 12.75 18 12.414 18 12C18 11.586 17.664 11.25 17.25 11.25Z"
+                                                fill="#1E1E1E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_32_1114">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="faq__item-panel">
+                                <div class="faq__item-text-wrapper">
+                                    <p class="faq__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat mi, eleifend eget porttitor nec, consectetur vel sem. Praesent nec tellus ut lorem egestas vehicula.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-2">
+            <div class="container">
+                <div class="banner-2__wrapper">
+                    <h2 class="banner-2__title">Start exploring locations with Gini</h2>
+                    <p class="banner-2__text">Discover the best locations for your business using AI-powered geospatial analytics.</p>
+                    <a href="#" class="cta-header banner-2-cta">Get started
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.5297 11.4699C20.6701 11.6105 20.749 11.8012 20.749 11.9999C20.749 12.1987 20.6701 12.3893 20.5297 12.5299L14.5297 18.5299C14.461 18.6036 14.3782 18.6627 14.2862 18.7037C14.1942 18.7447 14.0949 18.7667 13.9942 18.7685C13.8935 18.7703 13.7935 18.7518 13.7001 18.714C13.6067 18.6763 13.5219 18.6202 13.4506 18.5489C13.3794 18.4777 13.3233 18.3929 13.2856 18.2995C13.2478 18.2061 13.2293 18.1061 13.2311 18.0054C13.2329 17.9047 13.2549 17.8054 13.2959 17.7134C13.3369 17.6214 13.396 17.5386 13.4697 17.4699L18.1897 12.7499L3.99968 12.7499C3.80077 12.7499 3.61001 12.6709 3.46935 12.5302C3.3287 12.3896 3.24968 12.1988 3.24968 11.9999C3.24968 11.801 3.3287 11.6102 3.46935 11.4696C3.61001 11.3289 3.80077 11.2499 3.99968 11.2499L18.1897 11.2499L13.4697 6.52991C13.396 6.46125 13.3369 6.37845 13.2959 6.28645C13.2549 6.19445 13.2329 6.09514 13.2311 5.99443C13.2293 5.89373 13.2478 5.7937 13.2856 5.70031C13.3233 5.60692 13.3794 5.52209 13.4506 5.45087C13.5219 5.37965 13.6067 5.32351 13.7001 5.28579C13.7935 5.24807 13.8935 5.22954 13.9942 5.23132C14.0949 5.2331 14.1942 5.25514 14.2862 5.29613C14.3782 5.33712 14.461 5.39622 14.5297 5.46991L20.5297 11.4699Z"
+                                fill="url(#paint0_linear_72_494)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_72_494" x1="20.749" y1="11.9999" x2="3.24968" y2="11.9999"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#DC5B34" />
+                                    <stop offset="0.480769" stop-color="#D35BD9" />
+                                    <stop offset="1" stop-color="#35ADBD" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="banner-2__bg">
+                <img src="./images/banner-2-bg.png" alt="">
+            </div>
+        </section>
+       
+     </main>
+  
+      <footer class="footer-2">
+         <div class="footer-2__container">
+            <div class="footer-2__top">
+                <div class="footer-2__top-left">
+                    <a href="#" class="footer-2__logo-link">
+                        <img src="./images/footer-2-logo-link.png" alt="">
+                    </a>
+                    <p class="footer-2__top-subtitle">Location intelligence platform for <span>smarter business decisions.</span></p>
+                </div>
+                <div class="footer-2__top-right">
+                     <div class="footer-2__nav">
+                        <span class="footer__legend">Company</span>
+                     <ul>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                         <li>
+                            <a href="#">Product</a>
+                        </li>
+                         <li>
+                            <a href="#">Contact</a>
+                        </li>
+
+                     </ul>
+                     </div>
+                     <div class="footer-2__nav">
+                        <span class="footer__legend">Social media</span>
+                     <ul>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                         <li>
+                            <a href="#">LinkedIn</a>
+                        </li>
+                         <li>
+                            <a href="#">X (Twitter)</a>
+                        </li>
+
+                     </ul>
+                     </div>
+                </div>
+            </div>
+            <div class="footer-2__bottom">
+                <p class="footer-2__credits">© 2026 Gini by MyTraffic</p>
+                <div class="footer-2__contact">
+                    <div class="footer-2__contact-link-wrapper">
+                        <a href="#">Terms of services</a>
+                    </div>
+                   <div class="footer-2__contact-link-wrapper">
+                     <a href="#">Privacy</a>
+                   </div>
+                </div>
+            </div>
+         </div>
+      </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js
+"></script>
+<script id="carousel-w-text">
+document.addEventListener('DOMContentLoaded', function () {
+  const splideEl = document.querySelector('.carousel-text');
+  if (!splideEl) return;
+
+  const splide = new Splide(splideEl, {
+    type: 'loop',
+    perPage: 1,
+    perMove: 1,
+    pagination: false,
+    arrows: false,
+    speed: 800,
+    easing: 'cubic-bezier(0.25, 1, 0.5, 1)',
+    drag: true,
+  });
+
+  splide.mount();
+
+  const prevBtn = document.querySelector('.carousel__btn-prev');
+  const nextBtn = document.querySelector('.carousel__btn-next');
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      splide.go('<'); 
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      splide.go('>'); 
+    });
+  }
+});
+</script>
+<script id="faq">
+document.addEventListener('DOMContentLoaded', () => {
+  const items = document.querySelectorAll('.faq__item');
+
+  items.forEach(item => {
+    const head = item.querySelector('.faq__item-head');
+    const panel = item.querySelector('.faq__item-panel');
+
+    head.addEventListener('click', () => {
+      const isOpen = item.classList.contains('is-open');
+
+      items.forEach(i => {
+        i.classList.remove('is-open');
+        i.querySelector('.faq__item-panel').style.maxHeight = null;
+      });
+
+      if (!isOpen) {
+        item.classList.add('is-open');
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+
+        requestAnimationFrame(() => {
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+        });
+      }
+    });
+  });
+});
+</script>
+<script id="hero-logos">
+      document.addEventListener("DOMContentLoaded", function () {
+        const splide = new Splide(".splide.hero-logos", {
+            type: "loop",
+            drag: false,
+            focus: "center",
+            perPage: "auto",
+            gap: "120px",
+            clones: "12",
+            arrows: false,
+            pagination: false,
+            autoWidth: true,
+            autoScroll: {
+                speed: 0.6,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+            },
+            breakpoints: {
+                991: {
+                    gap: "80px",
+                    autoScroll: { speed: 0.65 },
+                },
+                767: {
+                    gap: "40px",
+                    autoScroll: { speed: 0.45 },
+                },
+                479: {
+                    gap: "30px",
+                    autoScroll: { speed: 0.35 },
+                },
+            },
+        });
+
+        splide.mount(window.splide.Extensions);
+    });
+</script>
+<script id="sticky-timeline">
+const stepsSection = document.querySelector('.steps');
+const timeline = document.querySelector('.steps__timeline');
+const progressBar = document.querySelector('.steps__progress');
+const stepItems = document.querySelectorAll('.steps__item');
+const stickyImage = document.querySelector('.steps__image-sticky');
+
+const gradientStops = [
+  { stop: 0, color: '#00e7e7' },
+  { stop: 0.49, color: '#f03fe8' },
+  { stop: 1, color: '#ec662f' }
+];
+
+function hexToRgb(hex) {
+  const clean = hex.replace('#', '');
+  return {
+    r: parseInt(clean.substring(0, 2), 16),
+    g: parseInt(clean.substring(2, 4), 16),
+    b: parseInt(clean.substring(4, 6), 16)
+  };
+}
+
+function rgbToHex(r, g, b) {
+  const toHex = (v) => Math.round(v).toString(16).padStart(2, '0');
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+function mixColor(c1, c2, t) {
+  const a = hexToRgb(c1);
+  const b = hexToRgb(c2);
+
+  return rgbToHex(
+    a.r + (b.r - a.r) * t,
+    a.g + (b.g - a.g) * t,
+    a.b + (b.b - a.b) * t
+  );
+}
+
+function getGradientColorAt(p) {
+  const value = Math.max(0, Math.min(1, p));
+
+  for (let i = 0; i < gradientStops.length - 1; i++) {
+    const current = gradientStops[i];
+    const next = gradientStops[i + 1];
+
+    if (value >= current.stop && value <= next.stop) {
+      const localT = (value - current.stop) / (next.stop - current.stop);
+      return mixColor(current.color, next.color, localT);
+    }
+  }
+
+  return gradientStops[gradientStops.length - 1].color;
+}
+
+function updateSteps() {
+  if (!stepsSection || !timeline || !progressBar || !stepItems.length || !stickyImage) return;
+
+  const timelineRect = timeline.getBoundingClientRect();
+  const imageRect = stickyImage.getBoundingClientRect();
+
+  const lastDot = stepItems[stepItems.length - 1].querySelector('.steps__dot');
+  if (!lastDot) return;
+
+  const lastDotRect = lastDot.getBoundingClientRect();
+  const maxProgress = lastDotRect.top - timelineRect.top + lastDotRect.height / 2;
+
+  let progressHeight = imageRect.bottom - timelineRect.top;
+  progressHeight = Math.max(0, Math.min(progressHeight, maxProgress));
+
+  progressBar.style.height = `${progressHeight}px`;
+
+  let activeIndex = -1;
+  const vh = window.innerHeight;
+
+  stepItems.forEach((item, index) => {
+    const rect = item.getBoundingClientRect();
+    if (rect.top < vh * 0.6 && rect.bottom > vh * 0.3) {
+      activeIndex = index;
+    }
+  });
+
+  if (activeIndex === -1) {
+    for (let i = 0; i < stepItems.length; i++) {
+      const rect = stepItems[i].getBoundingClientRect();
+      if (rect.bottom < vh * 0.2) activeIndex = i;
+    }
+    if (activeIndex === -1) activeIndex = 0;
+  }
+
+  stepItems.forEach((item, idx) => {
+    item.classList.toggle('is-active', idx === activeIndex);
+
+    const dot = item.querySelector('.steps__dot');
+    if (!dot) return;
+
+    const dotRect = dot.getBoundingClientRect();
+    const dotCenter = dotRect.top - timelineRect.top + dotRect.height / 2;
+    const dotProgress = Math.max(0, Math.min(1, dotCenter / maxProgress));
+    const dotColor = getGradientColorAt(dotProgress);
+
+    if (progressHeight >= dotCenter - 1) {
+      dot.style.background = dotColor;
+    } else {
+      dot.style.background = '#fff';
+    }
+  });
+}
+
+window.addEventListener('scroll', updateSteps, { passive: true });
+window.addEventListener('resize', updateSteps);
+window.addEventListener('load', updateSteps);
+</script>
+
+</html>
